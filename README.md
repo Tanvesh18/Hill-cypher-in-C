@@ -1,1 +1,5 @@
-# Hill_Cypher
+### **Hill Cipher Key Matrix Validation in C – A Math Case Study**  
+
+The **Hill Cipher** is a polygraphic substitution cipher that encodes plaintext using **matrix multiplication** over modular arithmetic. It requires an **invertible key matrix**, making key selection crucial for secure encryption and decryption.  
+
+In this project, I implemented a **2×2 key matrix validation program in C** that ensures the entered key matrix is **valid for Hill Cipher encryption**. The program allows users to input the matrix using either **letters (A-Z)** or **numeric values (0-25)**. It then calculates the **determinant** of the matrix and checks if it has a **modular inverse (mod 26)**—a necessary condition for decryption. If the matrix is not invertible, the user is prompted to enter another key. This implementation ensures that only **valid keys** are used, preventing errors in encryption and decryption while demonstrating the practical application of **modular arithmetic and linear algebra** in cryptography.
